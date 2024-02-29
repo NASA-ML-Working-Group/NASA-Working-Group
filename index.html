@@ -2,7 +2,7 @@
    <html lang="en">
 
    <head>
-      <link rel="shortcut icon" href="Images/logo.PNG" type="image/png">
+      <link rel="shortcut icon" href="Images/logo.png" type="image/png">
 
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Home</title>
@@ -41,7 +41,7 @@
                   <!--=============== DROPDOWN 1 ===============-->
                   <li class="dropdown__item">
                      <div class="nav__link">
-                        Analytics <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        Events <i class="ri-arrow-down-s-line dropdown__arrow"></i>
                      </div>
 
                      <ul class="dropdown__menu">
@@ -57,22 +57,42 @@
                            </a>
                         </li>
 
+                        <li>
+                           <a href="sessions.html" class="dropdown__link">
+                              <i class="ri-quill-pen-line"></i> Sessions
+                           </a>
+                        </li>
+
+                     <li class="dropdown__subitem">
+                           <div class="dropdown__link">
+                              <i class="ri-presentation-line"></i> Presentations <i class="ri-add-line dropdown__add"></i>
+                           </div>
+
+                        <ul class="dropdown__submenu">
+                           <li>
+                              <a href="presentations.html" class="dropdown__sublink"> <i class="ri-computer-line"></i>Integration Projects</a>
+                           </li>
+                           <li>
+                              <a href="presenter-projects.html" class="dropdown__sublink"><i class="ri-slideshow-line"></i>Presenter Projects</a>
+                           </li>
+                        </ul>
+                     </li>
                         <!--=============== DROPDOWN SUBMENU ===============-->
                         <li class="dropdown__subitem">
                            <div class="dropdown__link">
-                              <i class="ri-rocket-line"></i> Events <i class="ri-add-line dropdown__add"></i>
+                              <i class="ri-rocket-line"></i>Past Meetings<i class="ri-add-line dropdown__add"></i>
                            </div>
 
                            <ul class="dropdown__submenu">
                               <li>
-                                 <a href="sessions.html" class="dropdown__sublink">
-                                    <i class="ri-quill-pen-line"></i> Sessions
+                                 <a href="past-presenters.html" class="dropdown__sublink">
+                                    <i class="ri-quill-pen-line"></i> Past Presenters
                                  </a>
                               </li>
       
                               <li>
-                                 <a href="presentations.html" class="dropdown__sublink">
-                                    <i class="ri-presentation-line"></i> Presentations
+                                 <a href="https://otter.ai/u/LXUvPrz83peAhRzxmihSEJj0q_Q?view=summary&tab=chat" class="dropdown__sublink">
+                                    <i class="ri-presentation-line"></i> Meeting Notes and Recordings
                                  </a>
                               </li>
 
@@ -121,6 +141,9 @@
 
                      </ul>
                   </li>
+
+
+                  <!---------Affiliations---->
 
                   <li class="dropdown__item">
                      <div class="nav__link">
@@ -190,63 +213,65 @@
 
   <section class="upcoming-presenters">
     <h2 style="text-align: center;">Upcoming Presenters</h2>
-    <p> Theme: SNOW </p>
+    <p> Theme: Atmospheric Science</p>
     <body>
       <div class="container2">
+
+         <article class="card__article">
+            <img src="Images/Dr.Molina.JPEG" alt="image" class="card__img">
+            <div class="card__overlay">
+              <div class="card__data">
+                <h3 class="card__title">Guest Speaker</h3>
+                <span class="card__description">Dr. Maria Molina, University of Maryland</span>
+                <a href="https://mariajmolina.github.io/" style="color: black"><i class="ri-share-circle-fill"> Group Website</i></a> 
+              </div>
+            </div>
+          </article>
+
+          <article class="card__article">
+            <img src="Images/Jhayron.JPG" alt="image" class="card__img">
+            <div class="card__overlay">
+              <div class="card__data">
+                <h3 class="card__title">Graduate Speaker</h3>
+                <span class="card__description">Jhayron Steven Perez Carrasquilla, Univeristy of Maryland </span>
+                <a href="https://mariajmolina.github.io/"style="color: black"><i class="ri-share-circle-fill">Group Website</i></a> 
+              </div>
+            </div>
+          </article>
+
+
+          <article class="card__article">
+            <img src="Images/Human.JPG" alt="image" class="card__img">
+            <div class="card__overlay">
+              <div class="card__data">
+                <h3 class="card__title">Undergraduate Presenter</h3>
+                <span class="card__description">Hannah Bao, University of Maryland</span>
+                <a href="https://mariajmolina.github.io/"style="color: black"><i class="ri-share-circle-fill">Website</i></a> 
+              </div>
+            </div>
+         </article>
+
 
          <article class="card__article">
             <img src="Images/Human.JPG" alt="image" class="card__img">
             <div class="card__overlay">
               <div class="card__data">
-                <h3 class="card__title">Guest Speaker</h3>
-                <span class="card__description">Dr. Carrie Vuyovich, NASA</span>
-                <a href="https://www.bing.com/search?pglt=673&q=dr.+carrie+voyuvich&cvid=efaf170578984047839dc1ff91a571bc&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDM4OTRqMGoxqAIAsAIA&FORM=ANNTA1&PC=HCTS" style="color: black"><i class="ri-share-circle-fill">Website</i></a> 
-              </div>
-            </div>
-          </article>
-
-          <article class="card__article">
-            <img src="Images/Human.JPG" alt="image" class="card__img">
-            <div class="card__overlay">
-              <div class="card__data">
-                <h3 class="card__title">Guest Speaker</h3>
-                <span class="card__description">Dr. Megan Mason, NASA</span>
+                <h3 class="card__title">ML Integration Presenter</h3>
+                <span class="card__description">________</span>
                 <a href="#"style="color: black"><i class="ri-share-circle-fill">Website</i></a> 
               </div>
             </div>
           </article>
 
-          <article class="card__article">
-            <img src="Images/matteo.PNG" alt="image" class="card__img">
-            <div class="card__overlay">
-              <div class="card__data">
-                <h3 class="card__title">ML Presenters</h3>
-                <span class="card__description">Dr. Matteo Ottaviani, Terra Research Inc / NASA Goddard Institute for Space Studies</span>
-                <a href="https://pace.oceansciences.org/people.htm?id=43"style="color: black"><i class="ri-share-circle-fill"></i>Website</a>
-                <a href="https://pubs.giss.nasa.gov/authors/mottaviani.html"style="color: black"><i class="ri-message-3-line"></i>Publications</a>
-              </div>
-            </div>
-          </article>
 
-          <article class="card__article">
-            <img src="Images/Evi.JPG" alt="image" class="card__img">
-            <div class="card__overlay">
-              <div class="card__data">
-                <h3 class="card__title">ML Presenter</h3>
-                <span class="card__description">Evi Ofekeze, Boise State University: Machine Learning on Snow Depth Estimation</span>
-                <a href="https://www.boisestate.edu/computing/directory/student-directory/evi-ofekeze/"style="color: black"><i class="ri-share-circle-fill">Website</i></a> 
-              </div>
-            </div>
-          </article>
 
-          <article class="card__article">
-            <img src="Images/Taylor.png" alt="image" class="card__img">
+         <article class="card__article">
+            <img src="Images/Human.JPG" alt="image" class="card__img">
             <div class="card__overlay">
               <div class="card__data">
-                <h3 class="card__title">ML Intergration Presenter</h3>
-                <span class="card__description">Taylor West</span>
-                <a href=" https://www.linkedin.com/in/taylor-west-mpp-947026177?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
-" style="color: black"><i class="ri-linkedin-box-line"></i>LinkedIn</a>
+                <h3 class="card__title">ML Integration Presenter</h3>
+                <span class="card__description">________</span>
+                <a href="#"style="color: black"><i class="ri-share-circle-fill">Website</i></a> 
               </div>
             </div>
           </article>
@@ -256,6 +281,64 @@
         </div>
       </div>
     </body>
+   </section>
+
+   <section class="theme">
+      <h5>Upcoming Themes</h5>
+
+
+<div class="card">
+  <img src="Images/img-1.JPG" alt="John" style="width:100%">
+  <h1>Feburary</h1>
+  <p class="title">Cryosphere</p>
+  <div style="margin: 24px 0;">
+  </div>
+</div>
+
+<div class="card">
+  <img src="Images/img-2.JPG" alt="John" style="width:100%">
+  <h1>March</h1>
+  <p class="title">Atmospheric Science</p>
+  <div style="margin: 24px 0;">
+  </div>
+</div>
+
+<div class="card">
+  <img src="Images/img-3.JPG" alt="John" style="width:100%">
+  <h1>April</h1>
+  <p class="title">Ocean Science</p>
+  <div style="margin: 24px 0;">
+  </div>
+</div>
+
+
+<div class="card">
+  <img src="Images/img-4.JPG" alt="John" style="width:100%">
+  <h1>May</h1>
+  <p class="title">Heliophysics</p>
+  <div style="margin: 24px 0;">
+  </div>
+</div>
+
+
+<div class="card">
+  <img src="Images/img-5.JPEG" alt="John" style="width:100%">
+  <h1>June</h1>
+  <p class="title">Neuroscience</p>
+  <div style="margin: 24px 0;">
+  </div>
+</div>
+
+
+<div class="card">
+  <img src="Images/img-6.JPEG" alt="John" style="width:100%">
+  <h1>July</h1>
+  <p class="title">Geophysics</p>
+  <div style="margin: 24px 0;">
+  </div>
+</div>
+         
+
    </section>
 
 
@@ -283,7 +366,7 @@
         <div class="footer-col">
             <h4>Organization</h4>
             <ul class="ul2">
-                <li><a href="#">about</a></li>
+                <li><a href="about.html">about</a></li>
                 <li><a href="contact.html">contact us</a></li>
             </ul>
         </div>
