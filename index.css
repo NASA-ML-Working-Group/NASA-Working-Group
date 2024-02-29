@@ -424,8 +424,9 @@ h0{
   background-color: #24292d;; /* White background for the gap */
   padding-top: 40px; /* Space between sections */
   text-align: center; /* Center the heading */
-  min-height: 100vh;
+  min-height: 30vh;
   width:100%;
+  padding-bottom: 1px;
 }
 
 .upcoming-presenters h2 {
@@ -517,7 +518,7 @@ p {
   border: none;
   font-size: 16px;
   font-weight: 500;
-  padding: 8px 16px;
+  padding: 8px 5px;
   background-color: white;
   border-radius: 6px;
   margin:14px;
@@ -634,6 +635,112 @@ p {
 
 
 
+
+
+
+.theme {
+  background-color: #24292d;; /* White background for the gap */
+  padding-top: 40px; /* Space between sections */
+  text-align: center; /* Center the heading */
+  min-height: 30vh;
+  width:100%;
+  padding-bottom: 1px;
+}
+
+.theme h5 {
+  font-size: 50px; /* Adjust heading size */
+  font-weight: 600; /* Adjust heading weight */
+  color: #fff; /* Black heading color */
+  text-align: center; /* Center the heading */
+}
+
+p {
+  font-size: 30px; /* Adjust heading size */
+  font-weight: 100; /* Adjust heading weight */
+  color: #fff; /* Black heading color */
+  text-align: center; /* Center the heading */
+}
+
+
+
+
+
+
+
+.theme{
+  background-color: #24292d;
+  min-height: 100vh;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  z-index:2;
+}
+
+.members h2{
+  color:white;
+  font-size: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+
+.card h1{
+  font-size: 20px;
+  padding-top: 1px;
+}
+
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 450px; /* Adjust for desired card width */
+  margin: 25px; /* Adjust for desired card spacing */
+  text-align: center;
+  align-content: right;
+  font-family: "Space-Mono", regular-400;
+  padding: px;
+  display: inline-block; /* Makes cards side-by-side */
+  background-color: #fff;
+  border-radius: 10px;
+
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap; /* Enables wrapping to columns */
+  justify-content: space-evenly; /* Evenly distribute cards */
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px; /* Adjust for desired button padding */
+  color: #FA4D56;
+  background-color: #FA4D56;
+  text-align: center;
+  align-content: center; /* Not applicable for buttons, remove */
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+
+
+/* Responsive layout media queries */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column; /* Cards stack vertically on small screens */
+  }
+}
+
+@media (max-width: 576px) {
+  /* Adjust card width for extra small screens if needed */
+}
 
 
 
