@@ -428,6 +428,9 @@ h0{
     text-align: center;
   }
 
+h2{
+  color: #fff
+}
   .posters__container embed {
     /* Style the embedded PDF */
     width: 100%; /* Adjust height as needed */
